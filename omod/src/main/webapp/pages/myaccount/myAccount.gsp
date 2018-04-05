@@ -33,4 +33,10 @@
             ${ ui.message("adminui.myAccount.myLanguages.label") }
         </div>
     </a>
+    <a class="button app big" href="${ ui.pageLink("adminui", "myaccount/manageModules") }">
+        <div class="task">
+            <i class="icon-cog"></i>
+            ${ ui.message("adminui.myAccount.managemodules.label") }
+        </div>
+    </a>
 </div>
